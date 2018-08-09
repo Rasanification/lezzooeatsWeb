@@ -13,8 +13,8 @@ class App extends Component {
       <Router>
         <div>
           <Navbar />
-          <Route exact path="/merchants/merchants" component={merchants} />
-          <Route path="/account/account" component={account} />
+          <Route exact path="/merchants" component={merchants} />
+          <Route path="/account" component={account} />
         </div>
       </Router>
     );

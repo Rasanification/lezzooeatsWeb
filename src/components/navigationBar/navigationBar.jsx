@@ -6,10 +6,10 @@ class CustomNavbar extends Component {
     render() {
         return (
           <Menu secondary>
-          <Menu.Item name='Home' href='/merchants/merchants'/>
+          <Menu.Item name='Home' href='../merchants'/>
           <Menu.Item
             name='Account'
-            href='/account/account'
+            href='../account'
           />
           <Menu.Menu position='right'>
             <Menu.Item>
