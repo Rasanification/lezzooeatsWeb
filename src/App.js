@@ -16,7 +16,7 @@ class App extends Component {
         </p>
         <div>
         <Button primary>Primary</Button>
-        <Button secondary>Secondary</Button>
+        <Button primary>updated to primary</Button>
       </div>
       </div>
 
