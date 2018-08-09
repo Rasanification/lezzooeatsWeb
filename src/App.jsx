@@ -7,14 +7,21 @@ import Navbar from './components/NavigationBar/NavigationBar';
 import Categories from './components/NavigationBar/Categories';
 
 class App extends Component {
+
+  constructor(props){
+    super(props)
+    this.state= {
+      isShown: true
+    }
+  }
   render() {
     return (
 
       <Router>
         <div>
-          <Navbar />
+          <Navbar onClickButton={()=>this.setState({isShown:true})} />
           <Route exact path="/Merchants" component={Merchants} />
-          <Categories />
+          <Categories isShown={this.state.isShown} />
         </div>
       </Router>
     );
