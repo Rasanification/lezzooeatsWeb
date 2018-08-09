@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
 const MerchantCard = () => (
-  <Card>
+  <Card fluid>
     <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' />
     <Card.Content>
       <Card.Header>Matthew</Card.Header>
