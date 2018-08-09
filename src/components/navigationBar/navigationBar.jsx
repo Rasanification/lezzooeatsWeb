@@ -6,7 +6,9 @@ class CustomNavbar extends Component {
     render() {
         return (
           <Menu secondary>
-          <Menu.Item name='Home' href='../merchants'/>
+          <Menu.Item name='Merchants' href='../Merchants'/>
+          <Menu.Item name='MerchantMenus' href='../MerchantMenus'/>
+
           <Menu.Menu position='right'>
             <Menu.Item>
               <Input icon='search' placeholder='Search...' />

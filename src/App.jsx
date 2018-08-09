@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Merchants from './components/Merchants/Merchants';
-
+import MerchantMenus from './components/MerchantMenus/MerchantMenus';
 import Navbar from './components/NavigationBar/NavigationBar';
 
 class App extends Component {
@@ -13,6 +13,8 @@ class App extends Component {
         <div>
           <Navbar />
           <Route exact path="/Merchants" component={Merchants} />
+          <Route path="/MerchantMenus" component={MerchantMenus} />
+
         </div>
       </Router>
     );
