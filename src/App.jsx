@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import merchants from './components/merchants/merchants';
-import account from './components/account/account';
+import Merchants from './components/Merchants/Merchants';
 
-import Navbar from './components/navigationBar/navigationBar';
+import Navbar from './components/NavigationBar/NavigationBar';
 
 class App extends Component {
   render() {
@@ -13,8 +12,7 @@ class App extends Component {
       <Router>
         <div>
           <Navbar />
-          <Route exact path="/merchants" component={merchants} />
-          <Route path="/account" component={account} />
+          <Route exact path="/Merchants" component={Merchants} />
         </div>
       </Router>
     );

@@ -7,10 +7,6 @@ class CustomNavbar extends Component {
         return (
           <Menu secondary>
           <Menu.Item name='Home' href='../merchants'/>
-          <Menu.Item
-            name='Account'
-            href='../account'
-          />
           <Menu.Menu position='right'>
             <Menu.Item>
               <Input icon='search' placeholder='Search...' />
