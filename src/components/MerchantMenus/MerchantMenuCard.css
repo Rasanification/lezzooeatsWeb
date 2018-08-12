@@ -1,0 +1,13 @@
+.ui .card .content{
+  border: none;
+}
+.column{
+  margin: 50px;
+}
+.header{
+  font-size: 35px !important;
+}
+.ui .card{
+  padding: 30px !important;
+  /* background-color: pink; */
+}
