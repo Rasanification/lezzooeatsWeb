@@ -7,8 +7,8 @@ const description = [
   'test',
 ].join(' ')
 const CardExampleExtraContent = () => (
-  <Card>
-    <Card.Content header='PAUL (Kingsway)' />
+  <Card className="MerchantMenuCard">
+    <Card.Content className="MerchantMenuCardContent" header='PAUL (Kingsway)' />
     <Card.Content description={description} />
     <Card.Content>
       <Label>

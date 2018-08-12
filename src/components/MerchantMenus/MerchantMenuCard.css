@@ -1,13 +1,13 @@
-.ui .card .content{
+.MerchantMenuCardContent{
   border: none;
 }
-.column{
+.MerchantMenuCardColumn{
   margin: 50px;
 }
 .header{
   font-size: 35px !important;
 }
-.ui .card{
+.MerchantMenuCard{
   padding: 30px !important;
   /* background-color: pink; */
 }
