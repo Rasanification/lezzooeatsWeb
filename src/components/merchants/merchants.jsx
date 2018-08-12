@@ -41,11 +41,11 @@ class Merchants extends Component {
                     </Grid.Column>
                     <Grid.Column>
                         <MerchantCard />
-                    </Grid.Column>               
+                    </Grid.Column>
             </Grid>
         </Container>
         );
     }
 }
-
+// this is comment
 export default Merchants;

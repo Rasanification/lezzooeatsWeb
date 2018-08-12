@@ -19,5 +19,5 @@ const MerchantCard = () => (
     </Card.Content>
   </Card>
 );
-
+// this is comment
 export default MerchantCard
