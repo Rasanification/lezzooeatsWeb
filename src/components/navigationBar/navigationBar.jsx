@@ -9,7 +9,6 @@ class NavigationBar extends Component {
           <Menu secondary>
           <Menu.Item name='Merchants' href='../Merchants'/>
           <Menu.Item name='MerchantMenus' href='../MerchantMenus'/>
-          <Menu.Item name='Home' href='../merchants'/>
 
           <Menu.Menu position='right'>
             <Menu.Item>
